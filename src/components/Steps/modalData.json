@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "type": "H2",
+        "text": "Welcome"
+    },
+    {
+        "id": "2",
+        "type": "P",
+        "text": "Welcome to assist medic sistem to get your appointment"
+    }
+]
