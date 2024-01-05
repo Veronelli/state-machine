@@ -2,7 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-*,body{
+body,html,#root,.App{
   height: 100%;
   width: 100%;
+}
+h1{
+  font-size: xx-large; 
+}
+h2{
+  font-size: x-large;
+}
+h3{
+  font-size: large;
+}
+h4{
+  font-size: medium;
+}
+h5{
+  font-size: small;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+p,h1,h2,h3,h4,h5,h6{
+  text-align: left;
 }

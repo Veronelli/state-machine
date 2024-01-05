@@ -4,7 +4,7 @@ import { Welcome } from "../../components/Steps/Welcome";
 function HomeUI(props) {
   return (
     <Fragment>
-      <Modal>
+      <Modal headerTitle={"Assist Medic System"}>
         <Welcome />
       </Modal>
       {props.children}
