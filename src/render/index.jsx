@@ -15,7 +15,13 @@ export function RenderFormFields(field) {
         onChange={(event) => onSetFieldValue(event)}
       />
     ),
-    [HTMLTag.SELECT]: () => <select></select>,
+    [HTMLTag.SELECT]: () => (
+      <select key={field.id}>
+        {field.options.map((option) => (
+          <option key={option.id}>{option.text}</option>
+        ))}
+      </select>
+    ),
   };
   return {
     fieldComponent: fieldComponentTag[field.tag](),
