@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 import { Modal } from "../../components/Modal";
-import { Welcome } from "../../components/Steps/Welcome";
-import { RegisterPatient } from "../../components/Steps/RegisterPatient";
-import { SelectAppointment } from "../../components/Steps/SelectAppointment";
+import { BaseLayout } from "../../components/BaseLayout";
 function HomeUI(props) {
   return (
     <Fragment>
       <Modal headerTitle={"Assist Medic System"}>
         {/* <Welcome /> */}
         {/* <RegisterPatient/> */}
-        <SelectAppointment />
+        {/* <SelectAppointment /> */}
+        {/* <FinishReservation/> */}
+        <BaseLayout />
       </Modal>
       {props.children}
     </Fragment>
