@@ -1,9 +1,14 @@
 import { RenderData } from "../../../render";
 import modalContentData from "./modalContentData.json";
 
-function SelectAppointment() {
+function SelectAppointment({ send }) {
   const renderedData = RenderData(modalContentData);
-  return <div className="">{renderedData.components}</div>;
+  const onClick = () => {
+    send({ type: "DONE" });
+  };
+  return <div className="">{renderedData.components}
+  <button onClick={onClick}>Reserve Appointment</button>
+  </div>;
 }
 
 export { SelectAppointment };

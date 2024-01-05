@@ -6,24 +6,24 @@ const bookingMachine = createMachine({
   states: {
     initial: {
       on: {
-        START: 'search'
+        REGISTER: 'registerPatient'
       }
     },
-    search: {
+    registerPatient: {
       on: {
-        CONTIUNE: 'passengers',
-        CANCEL: 'initial'
+        CONTIUNE: 'selectAppointment',
+        RESET: 'initial'
       }
     },
-    passengers: {
+    selectAppointment: {
       on: {
-        DONE: 'tickets',
-        CANCEL: 'initial'
+        DONE: 'finishReservation',
+        RESET: 'initial'
       }
     },
-    tickets: {
+    finishReservation: {
       on: {
-        FINISH: 'initial'
+        RESET: 'initial'
       }
     },
   }
