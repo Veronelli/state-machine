@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "tag": "H2",
+        "text": "Welcome"
+    },
+    {
+        "id": "2",
+        "tag": "P",
+        "text": "Welcome to assist medic sistem to get your appointment"
+    },
+    {
+        "id": "3",
+        "tag": "FORM",
+        "action": "",
+        "orientation": "column",
+        "fields": [
+            {
+                "id": "4",
+                "tag": "INPUT",
+                "type": "text",
+                "placeholder": "Name"
+            },
+            {
+                "id": "5",
+                "tag": "INPUT",
+                "type": "text",
+                "placeholder": "Last name"
+            },
+            {
+                "id": "6",
+                "tag": "INPUT",
+                "type": "text",
+                "placeholder": "Email"
+            },
+            {
+                "id": "7",
+                "tag": "INPUT",
+                "type": "text",
+                "placeholder": "Age"
+            }
+        ]
+    }
+]

@@ -1,4 +1,4 @@
- const TextTag = {
+ const HTMLTag = {
     P: "P",
     H1: "H1",
     H2: "H2",
@@ -6,6 +6,9 @@
     H4: "H4",
     H5: "H5",
     H6: "H6",
+    FORM: "FORM",
+    INPUT: "INPUT",
+    SELECT: "SELECT"
 }
 
-export {TextTag}
+export {HTMLTag}
