@@ -24,7 +24,7 @@ export function RenderFormFields(field) {
     ),
   };
   return {
-    fieldComponent: fieldComponentTag[field.tag](),
+    fieldComponent: typeof fieldComponentTag[field.tag]=== "function" ? fieldComponentTag[field.tag](): fieldComponentTag[field.tag],
     [field.fieldName]: fieldValue,
   };
 }
@@ -68,7 +68,6 @@ export function RenderByTag(item) {
   const component = componentsTags[item.tag];
   if (item.tag === HTMLTag.FORM) {
     const componentInstanced = component();
-    console.log(componentInstanced);
     return {
       component: componentInstanced.component,
       formName: componentInstanced.fields,

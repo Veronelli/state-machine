@@ -1,13 +1,13 @@
 [
     {
-        "id": "1",
+        "id": "0",
         "tag": "H2",
-        "text": "Welcome"
+        "text": "Appointment Reservation Form"
     },
     {
-        "id": "2",
+        "id": "1",
         "tag": "P",
-        "text": "Welcome to assist medic sistem to get your appointment"
+        "text": "Please fill out the form below to schedule your appointment. Providing accurate information helps us serve you better."
     },
     {
         "id": "3",
@@ -27,7 +27,7 @@
                 "id": "5",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Last name",
+                "placeholder": "Last Name",
                 "fieldName": "lastname"
             },
             {
@@ -43,6 +43,30 @@
                 "type": "text",
                 "placeholder": "Age",
                 "fieldName": "age"
+            },
+            {
+                "id": "8",
+                "tag": "SELECT",
+                "placeholder": "Gender",
+                "fieldName": "gender",
+                "options": [
+                    {"value": "male", "text": "Male"},
+                    {"value": "female", "text": "Female"},
+                    {"value": "other", "text": "Other"}
+                ]
+            },
+            {
+                "id": "9",
+                "tag": "INPUT",
+                "type": "tel",
+                "placeholder": "Phone Number",
+                "fieldName": "phone"
+            },
+            {
+                "id": "10",
+                "tag": "TEXTAREA",
+                "placeholder": "Address",
+                "fieldName": "address"
             }
         ]
     }

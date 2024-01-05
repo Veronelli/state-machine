@@ -1,8 +1,8 @@
 import { RenderData } from "../../../render";
-import welcomeContentData from "./modalData.json";
+import modalContentData from "./modalContentData.json";
 
 function Welcome({send}) {
-  const renderedData = RenderData(welcomeContentData);
+  const renderedData = RenderData(modalContentData);
   const onClick = () => {
     send({ type: "REGISTER" })
   }

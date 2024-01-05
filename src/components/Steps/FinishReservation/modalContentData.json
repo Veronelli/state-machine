@@ -1,12 +1,22 @@
 [
     {
-        "id": "1",
+        "id": "0",
         "tag": "H2",
-        "text": "Welcome"
+        "text": "Appointment Reserved"
+    },
+    {
+        "id": "1",
+        "tag": "P",
+        "text": "Thank you! Your appointment has been successfully reserved."
     },
     {
         "id": "2",
         "tag": "P",
-        "text": "Welcome to assist medic sistem to get your appointment"
+        "text": "Details of your appointment:"
+    },
+    {
+        "id": "4",
+        "tag": "P",
+        "text": "We look forward to seeing you at your scheduled appointment."
     }
 ]

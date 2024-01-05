@@ -1,108 +1,72 @@
 [
     {
-        "id": "1",
+        "id": "0",
         "tag": "H2",
-        "text": "Welcome"
+        "text": "Appointment Information"
+    },
+    {
+        "id": "1",
+        "tag": "P",
+        "text": "To ensure a smooth and effective appointment scheduling process, please provide accurate information below."
     },
     {
         "id": "2",
-        "tag": "P",
-        "text": "Welcome to assist medic sistem to get your appointment"
-    },
-    {
-        "id": "3",
         "tag": "FORM",
         "action": "",
         "orientation": "column",
         "formName": "appointment",
         "fields": [
             {
-                "id": "4",
+                "id": "3",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Name",
+                "placeholder": "Your Name",
                 "fieldName": "name"
             },
             {
-                "id": "5",
+                "id": "4",
                 "tag": "SELECT",
                 "type": "select",
-                "placeholder": "Medic",
+                "placeholder": "Select Medic",
                 "fieldName": "medic",
                 "options": [
-                    {
-                        "id": "21",
-                        "text": "John Doe"
-                    },
-                    {
-                        "id": "22",
-                        "text": "Jane Doe"
-                    },
-                    {
-                        "id": "23",
-                        "text": "Jim Johnson"
-                    },
-                    {
-                        "id": "24",
-                        "text": "Jessica Williams"
-                    },
-                    {
-                        "id": "25",
-                        "text": "Jack Brown"
-                    },
-                    {
-                        "id": "26",
-                        "text": "Jill Davis"
-                    }
+                    {"id": "21", "text": "John Doe"},
+                    {"id": "22", "text": "Jane Doe"},
+                    {"id": "23", "text": "Jim Johnson"},
+                    {"id": "24", "text": "Jessica Williams"},
+                    {"id": "25", "text": "Jack Brown"},
+                    {"id": "26", "text": "Jill Davis"}
                 ]
             }
         ]
     },
     {
-        "id": "3",
+        "id": "5",
         "tag": "FORM",
         "action": "",
         "orientation": "column",
         "formName": "appointment",
         "fields": [
             {
-                "id": "4",
+                "id": "6",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Date",
-                "fieldName": "name"
+                "placeholder": "Preferred Date",
+                "fieldName": "appointmentDate"
             },
             {
-                "id": "5",
+                "id": "7",
                 "tag": "SELECT",
                 "type": "select",
-                "placeholder": "Medic",
-                "fieldName": "appointmentDate",
+                "placeholder": "Preferred Time",
+                "fieldName": "appointmentTime",
                 "options": [
-                    {
-                        "id": "31",
-                        "text": "Tuesday 13:30hs"
-                    },
-                    {
-                        "id": "32",
-                        "text": "Tuesday 17:00hs"
-                    },
-                    {
-                        "id": "33",
-                        "text": "Thursday 13:30hs"
-                    },
-                    {
-                        "id": "34",
-                        "text": "Thursday 17:00hs"
-                    },
-                    {
-                        "id": "35",
-                        "text": "Saturday 9:00hs"
-                    },
-                    {
-                        "id": "36",
-                        "text": "Saturday 12:00hs"
-                    }
+                    {"id": "31", "text": "Tuesday 13:30hs"},
+                    {"id": "32", "text": "Tuesday 17:00hs"},
+                    {"id": "33", "text": "Thursday 13:30hs"},
+                    {"id": "34", "text": "Thursday 17:00hs"},
+                    {"id": "35", "text": "Saturday 9:00hs"},
+                    {"id": "36", "text": "Saturday 12:00hs"}
                 ]
             }
         ]
