@@ -1,10 +1,10 @@
-import { renderData } from "../../../render";
+import { RenderData } from "../../../render";
 import welcomeContentData from "./modalData.json";
 
 function Welcome() {
-  const renderedData = renderData(welcomeContentData);
+  const renderedData = RenderData(welcomeContentData);
   return <div className="">
-    {renderedData}
+    {renderedData.components}
   </div>;
 }
 export { Welcome };

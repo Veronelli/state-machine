@@ -14,30 +14,35 @@
         "tag": "FORM",
         "action": "",
         "orientation": "column",
+        "formName": "patient",
         "fields": [
             {
                 "id": "4",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Name"
+                "placeholder": "Name",
+                "fieldName": "name"
             },
             {
                 "id": "5",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Last name"
+                "placeholder": "Last name",
+                "fieldName": "lastname"
             },
             {
                 "id": "6",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Email"
+                "placeholder": "Email",
+                "fieldName": "email"
             },
             {
                 "id": "7",
                 "tag": "INPUT",
                 "type": "text",
-                "placeholder": "Age"
+                "placeholder": "Age",
+                "fieldName": "age"
             }
         ]
     }

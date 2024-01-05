@@ -1,11 +1,10 @@
-import { renderData } from "../../../render";
+import { RenderData } from "../../../render";
 import modalContentData from "./modalContentData.json";
 
 function RegisterPatient() {
-  const renderedData = renderData(modalContentData);
-  console.log(renderedData)
+  const renderedData = RenderData(modalContentData);
   return <div className="">
-    {renderedData}
+    {renderedData.components}
   </div>;
 }
 export { RegisterPatient };
