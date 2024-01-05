@@ -3,9 +3,9 @@ function HeaderModal({headerTitle, send}) {
     send({type: "RESET"})
   }
   return (
-    <div className="w-full bg-blue-500 rounded-t-md px-2">
+    <div className="w-full bg-blue-500 rounded-t-md px-2 flex align-middle justify-between">
       <h2 className="text-white ">{headerTitle}</h2>
-      <button onClick={onClick}>Cancel</button>
+      <button className="bg-white m-1 px-2 rounded-md font-semibold text-blue-500" onClick={onClick}>Cancel</button>
     </div>
   );
 }
